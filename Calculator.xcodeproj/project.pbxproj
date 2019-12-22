@@ -37,6 +37,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C7AC74F523AFE306002ADCEB /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				C7BD933A23A809EA0002A57C /* Main.storyboard */,
+				C7BD933F23A809EC0002A57C /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		C7AC74F623AFE332002ADCEB /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				C7BD933623A809EA0002A57C /* SceneDelegate.swift */,
+				C7BD933423A809EA0002A57C /* AppDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		C7AC74F723AFE354002ADCEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7BD934223A809EC0002A57C /* Info.plist */,
+				C7BD933D23A809EC0002A57C /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C7AC74F823AFE37B002ADCEB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C7BD933823A809EA0002A57C /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		C7BD932823A809EA0002A57C = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +91,10 @@
 		C7BD933323A809EA0002A57C /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				C7BD933423A809EA0002A57C /* AppDelegate.swift */,
-				C7BD933623A809EA0002A57C /* SceneDelegate.swift */,
-				C7BD933823A809EA0002A57C /* ViewController.swift */,
-				C7BD933A23A809EA0002A57C /* Main.storyboard */,
-				C7BD933D23A809EC0002A57C /* Assets.xcassets */,
-				C7BD933F23A809EC0002A57C /* LaunchScreen.storyboard */,
-				C7BD934223A809EC0002A57C /* Info.plist */,
+				C7AC74F823AFE37B002ADCEB /* ViewController */,
+				C7AC74F523AFE306002ADCEB /* Storyboard */,
+				C7AC74F723AFE354002ADCEB /* Supporting Files */,
+				C7AC74F623AFE332002ADCEB /* Delegate */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -286,13 +318,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 292TKZUPQ9;
-				INFOPLIST_FILE = Calculator/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Calculator/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Elif.Calculator;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Calculator;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -304,13 +336,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 292TKZUPQ9;
-				INFOPLIST_FILE = Calculator/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Calculator/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Elif.Calculator;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Calculator;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
