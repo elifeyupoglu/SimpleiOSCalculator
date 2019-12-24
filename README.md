@@ -15,7 +15,9 @@
 
 
 ## Requirements
-> iOS13 XCode 11.3 and Swift5
+- `iOS13`
+- `XCode 11.3`
+- `Swift5`
 
 
 
