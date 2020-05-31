@@ -8,11 +8,6 @@
 `UIButton`
    - `0` - `9`
    - `AC` `+/-` `%` `/` `X` `-` `+` `=`
-   
-## Video Demo
-
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/f1kk7brFO74/0.jpg)](https://www.youtube.com/watch?v=f1kk7brFO74)
-
 
 ## Requirements
 - `iOS13`
